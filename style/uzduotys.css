@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 10px 20px 15px 10px;
+    
+    
+}
+.child {
+    background-color: pink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    
+}
+
+div {
+    float: left;
+    
+}
+.parent2 {
+    background-color: gray;
+    border: 3px solid red;
+    padding: 30px 50px 0px 0px;
+    position: relative;
+    display: block;
+    margin: 10px 10px 0px 0px;
+    box-shadow: 0px 13px gray;
+    
+    
+}
+.child2 {
+    background-color: pink;
+    padding: 8px;
+    position: relative;
+    border: 2px solid black;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    top: 40px;
+    right: 2px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 0;
+    background-attachment: scroll;
+    opacity: 50%;
+    
+}

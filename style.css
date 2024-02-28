@@ -1,7 +1,124 @@
-img {
-    height: 100px;
-    width: 100px
+@font-face {
+    font-family: petras;
+    src: url("./Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
 }
+
+
 span {
     color: red;
 }
+
+p:hover {
+    color: aqua;
+    cursor: pointer;
+    font-family: petras;
+}
+p:active {
+    color: blueviolet;
+    /* font-family: "Annapurna SIL", serif; */
+}
+.my:link {
+    color: red;
+    cursor: pointer;
+}
+.my:visited {
+    color: green;
+}
+.my:focus {
+    color: aquamarine;
+    background: brown;
+}
+button {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+body {
+    background-color:#E7E9EB;
+  }
+  #myDIV {
+    height:300px;
+    background-color:#FFFFFF;
+  }
+  .bluediv {
+    width:200px;
+    background-color:lightblue;
+    word-break: break-word;
+  }
+
+  .border-radius {
+    border: 2px solid black;
+    border-radius: 90px;
+    background: green;
+    margin: 15px 20px 35px 10px;
+    padding: 30px 20px 35px 50px;
+  }
+  .border {
+    border: 2px dashed blue;
+    border-radius: 25% 10%;
+    background: yellow;
+    margin: 15px 20px 35px 10px;
+    padding: 15px 20px 35px 20px;
+  }
+  .radius {
+    border: 2px inset green;
+    border-radius: 90% 10% 10% 90%;
+    background: red;
+    margin: 15px 20px 35px 10px;
+    padding: 15px 20px 35px 100px;
+  }
+  .bord-radius {
+    border: 2px inset yellow;
+    border-radius: 0% 10% 80% 40%;
+    background: blue;
+    margin: 15px 20px 35px 10px;
+    padding: 20px 20px 35px 20px;
+  }
+
+  .border-radius:hover, .border:hover, .radius:hover, .bord-radius:hover {
+    background: orange;
+  }
+  .border-radius:active, .border:active, .radius:active, .bord-radius:active {
+    transform: scale(0.8);
+  }
+  h1, h2 {
+    color: green;
+  }
+
+  ul li {
+    color: blue;
+  }
+  .usa {
+    color: black;
+  }
+  .paveikslelis {
+    background-color: aqua;
+    width: 150px;
+    height: 300px;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+  }
+  .img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+  }
+  .img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    
+  }
+  

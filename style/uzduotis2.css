@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+   
+}
+
+.container::before {
+    content: "";
+    background-image: url(../images/lemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+   
+}
+.container {
+    font-size: 2rem;
+}
