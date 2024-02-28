@@ -23,3 +23,14 @@
 .container {
     font-size: 2rem;
 }
+.home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    z-index: 1;
+   
+    
+}
