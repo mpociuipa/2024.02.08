@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+}
+div{
+    width: 100%;
+    height: 20%;
+}
+.vienas {
+  
+    background-color:aqua;
+    
+}
+.du {
+   
+    background-color:bisque;
+}
+.trys {
+  
+    background-color:blue;
+}
+.keturi {
+   
+    background-color:purple;
+}
+.penki {
+   
+    background-color:green;
+}
+@media (min-width: 468px) {
+    .vienas {
+        height: 60%;
+        width: 50%;
+        background-color:black;
+        float: left;
+    }
+    .du {
+        height: 60%;
+        width: 50%;
+        float: right;
+        
+    }
+    .trys {
+        width: 33%;
+        float: left;
+    }
+    .keturi {
+        height: 20%;
+        width: 34%;
+        float: left;
+    }
+    .penki {
+        height: 20%;
+        width: 33%;
+        float: left;
+    }
+    
+}

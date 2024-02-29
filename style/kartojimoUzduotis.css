@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0
+}
+.container {
+    background-image: url(../images/lemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.content {
+    background-color: gray;
+    height: 300px;
+    opacity: 70%;
+    width: 800px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+span {
+    color: orange;
+}
+.text-center {
+    text-align: center;
+  
+    font-size: 5rem;
+}
