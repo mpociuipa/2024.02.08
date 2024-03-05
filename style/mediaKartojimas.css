@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    color: white;
+}
+.header {
+    background: rgb(2, 99, 190);
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+.nav {
+    background: rgb(0, 67, 145);
+    text-align: center;
+    height: 30px;
+    padding: 3px;
+}
+.main {
+    background: rgb(0, 153, 255);
+    text-align: center;
+    height: 100px;
+    padding: 100px;
+    width: 69%;
+    float: left;
+}
+.nav2 {
+    display: none;
+}
+.aside {
+    background: rgb(88, 117, 136);
+    text-align: center;
+    height: 100px;
+    padding: 100px;
+    width: 10.14%;
+    float: right;
+}
+footer {
+    background: rgb(2, 216, 253);
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+    .nav2 {
+        display: block;
+        background: rgb(4, 115, 241);
+        text-align: center;
+        height: 30px;
+        padding: 3px;
+        float: left;
+    }
+    .aside {
+       
+        text-align: center;
+        height: 20px;
+    }
+}
