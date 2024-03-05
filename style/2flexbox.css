@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+}
+.one {
+    background: green;
+    width: 800px;
+    height: 200px;
+}
+.two {
+    background: lightgreen;
+    width: 800px;
+    height: 360px;
+}
+.pirmas {
+    background: lightgreen;
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+.antras {
+    background: green;
+    height: 200px;
+    width: 400px;
+    float: right;
+}
+.trecias {
+    background: rgb(145, 190, 145);
+    height: 200px;
+    width: 400px;
+    float: left;
+}
+.keturi {
+    background: gray;
+    height: 200px;
+    width: 400px;
+    float: right;
+}
+.forth {
+    background: lightgreen;
+    ;
+    
+}

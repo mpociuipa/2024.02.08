@@ -1,0 +1,52 @@
+
+.header {
+    background: rgb(69, 141, 248);
+    height: 80px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.main {
+    background: rgb(223, 118, 209);
+    width: 1200px;
+    height: 200px;
+}
+.main2 {
+    background: rgb(159, 226, 226);
+    height: 80px;
+    width: 1200px;
+}
+.aside {
+    background: rgb(223, 128, 40);
+    height: 80px;
+    width: 703px;
+    
+}
+.aside2 {
+    background: rgb(194, 78, 194);
+    height: 200px;
+    width: 703px;
+    
+}
+.left {
+    background: rgb(221, 221, 118);
+    height: 80px;
+    width: 800px;
+    float: left;
+}
+.right {
+    background: rgb(185, 238, 105);
+    height: 80px;
+    width: 1902px;
+}
+footer {
+    background: rgb(233, 207, 124);
+    height: 80px;
+    text-align: center;
+    float: left;
+    width: 1902px;
+}
