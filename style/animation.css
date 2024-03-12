@@ -1,0 +1,56 @@
+.animation {
+    height: 100px;
+    width: 100px;
+    animation-name: changeColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor {
+    0%{
+        background-color: aqua;
+        opacity: 0.8;
+    }
+    20%{
+        background-color: rgba(4, 70, 70);
+    }
+    40%{
+        background-color: rgba(58, 8, 89);
+        opacity: 0.6;
+    }
+    60%{
+        background-color: tgba(54, 229, 249);
+        opacity: 0.4;
+    }
+    80%{
+        background-color: rgba(34, 221, 47);
+        opacity: 0.2;
+    }
+    100% {
+        background-color: rgba(225, 9, 9);
+        opacity: 0;
+    }
+    
+}
+/* @keyframes changeColor {
+    fromo {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+/* .animation {
+    position:relative;
+    height: 50px;
+    width: 50px;
+} */
+.button {
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    transition: width 2s ease-in, transition 3s ease-out;
+}
+.button:hover {
+    width: 900px;
+    background-color: red;
+}
