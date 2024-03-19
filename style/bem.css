@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    background: orange;
+    width: 205px;
+}
+.card__img {
+    width: 200px;
+    height: 280px;
+    padding: 30px;
+    
+}
+.card__btn--primary {
+    background: green;
+    padding:10px;
+    margin-left: 30px;
+}
+.card__btn--secondary {
+    background: red;
+    padding: 10px;
+    
+}
+
+.card__content-text {
+   padding: 10px;
+}
